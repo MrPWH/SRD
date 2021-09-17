@@ -77,5 +77,8 @@ git clone https://github.com/gwen001/github-search.git
 #cd x8
 #sudo cargo build --release
 
+mkdir seclist
+cd seclist
+git clone https://github.com/danielmiessler/SecLists.git
 
 echo 'Install SDR Tools END!' 
