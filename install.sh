@@ -4,6 +4,7 @@ export PATH=$PATH:$(go env GOPATH)/bin
 sudo apt-get update -y
 sudo apt-get install golang -y
 sudo apt-get install prips -y
+go get github.com/haccer/subjack
 go get -u github.com/tomnomnom/anew
 go get -u github.com/tomnomnom/hacks/anti-burl
 go get -u github.com/tomnomnom/assetfinder
