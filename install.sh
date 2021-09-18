@@ -1,5 +1,6 @@
 #!/bin/sh
 echo'MrPWH SDR Tools'
+export PATH=$PATH:$(go env GOPATH)/bin
 sudo apt-get update -y
 sudo apt-get install golang -y
 go get -u github.com/tomnomnom/anew
@@ -49,6 +50,7 @@ go get github.com/003random/getJS
 go get -u github.com/tomnomnom/unfurl
 go get github.com/detectify/page-fetch
 go get -v github.com/OWASP/Amass/v3@latest
+export PATH=$PATH:$(go env GOPATH)/bin
 mkdir Tools
 cd Tools
 git clone https://github.com/m4ll0k/SecretFinder.git secretfinder
