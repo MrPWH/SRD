@@ -18,7 +18,7 @@ go get -u github.com/ffuf/ffuf
 go get -u github.com/brentp/gargs
 GO111MODULE=on go get -u -v github.com/lc/gau
 
-
+go install github.com/lc/gau/v2/cmd/gau@latest
 go get -u github.com/tomnomnom/gf
 echo 'source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc
 mkdir ~/.gf
